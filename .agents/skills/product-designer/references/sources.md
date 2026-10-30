@@ -86,3 +86,32 @@
 - Apple HIG의 기본 페이지는 JavaScript 안내만 반환했고 Markdown 링크도 도구에서 열리지 않았다. 세부 HIG를 읽었다고 주장하지 않는다. iOS/macOS 설계에서는 [공식 HIG](https://developer.apple.com/design/human-interface-guidelines/)를 접근 가능한 방식으로 다시 확인한다.
 - Linear의 추측한 keyboard-shortcuts URL은 404였다. 검색으로 찾은 실제 Select Issues 문서를 대신 확인했다.
 - 이번 조사는 스킬 설계용 공개 자료 조사다. 앱 로그인 조작·유료 연구 열람·새 디자인 생성·사용자 실험·공장 견적·시제품 제작을 수행한 기록이 아니다.
+
+## 추가 GitHub 조사 · 2026-10-31
+
+아래 자료의 SKILL.md 또는 README를 읽고 우리 작업에 필요한 판단 절차를 새 문장으로 정리했다. 외부 파일·코드·설치 스크립트를 복사하거나 실행하지 않았다. 원문에 있는 승인 반복·도구 의존성·보편 수치와 성능 주장을 그대로 채택하지 않는다.
+
+28. [shawnlix · Product Designer Skill](https://github.com/shawnlix/claude-product-designer-skill)
+    - 확인: SKILL.md·README. 형태 탐색, 내부 공간, 기구, 재료와 렌더를 구분한 절차.
+    - 반영: 형태·공간·동작 검토를 실제 제작 제약과 연결. 20~50장 스케치·매 단계 승인·특정 이미지 생성 도구 의존은 채택하지 않음. 글로 작성한 기구 설명을 기능 입증으로 취급하지 않음.
+29. [wonsukchoi · Commercial / Industrial Designer](https://github.com/wonsukchoi/domain-experts/blob/main/roles/commercial-industrial-designer/SKILL.md)
+    - 확인: SKILL.md, draft 표기. blob `6b88b84e233f49fceb689a1e3652078cd6700bc6`.
+    - 반영: 생산량·공정·금형비/개당비·재료 비교와 질문별 작은 시제품. 원문의 힘·구배·인체 범위 숫자는 제품·재료·사용자별 근거 확인 없이 공통 규격으로 쓰지 않음.
+30. [Gayaya999 · Product Design Three Views](https://github.com/Gayaya999/product-design-three-views)
+    - 확인: SKILL.md. blob `7a08331d9a478f6c554d8ecf114e47e275628b4f`.
+    - 반영: 형태·구조·상호작용·재료를 분리해 참고 스타일을 해석하고 기준 형상과 부품 목록을 유지하며 뷰를 비교. 고정 3장 산출·브랜드 선택·생성 전 승인 반복은 도입하지 않음. 선화를 정밀 도면으로 취급하지 않음.
+31. [CadQuery](https://github.com/CadQuery/cadquery)
+    - 확인: README. blob `090c35145118878ee62af919ca7854214171e697`.
+    - 반영: 매개변수 CAD·조립·STEP 등 출력의 도구 후보. 이번 업데이트에서 설치·모델링·내보내기 시험은 하지 않음.
+32. [build123d](https://github.com/gumyr/build123d)
+    - 확인: README. blob `0f0487ce7c3b9789e0781d2e12bbf6691b8a61c4`.
+    - 반영: Python 기반 곡선·스케치·솔리드 모델 도구 후보. CadQuery와 둘 다 설치하는 것을 요구하지 않음. 실행·제품 검증은 별도.
+33. [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+    - 확인: README. blob `074a2706ee60450eecabf2a1e8b777c345f5baf7`.
+    - 반영: 스타일·색·서체·레이아웃의 구조화된 비교. 카탈로그 추천이나 제작자 설명을 검증된 접근성·전환 성능으로 간주하지 않음. 데이터·CLI를 가져오지 않음.
+34. [Impeccable](https://github.com/pbakaus/impeccable)
+    - 확인: README. blob `8f27aa965cb56ab578d637e53f0392ae4e2d06db`.
+    - 반영: UI 비평·미적 정돈·기술 검사를 구분하고 지정 부분부터 반복 수정. 도구의 명령·규칙 탐지·후크는 설치하거나 성능을 시험하지 않음.
+35. [JoaoMonteiro100 · UX Design Skills](https://github.com/JoaoMonteiro100/ux-design-skills)
+    - 확인: README. blob `8759d3ec311a64d7237ba5afa2b58910905eb595`.
+    - 반영: 경쟁 분석·페르소나·사용성·접근성의 목적별 구분과 근거 범위. 제작자가 보고한 평가를 우리 환경의 독립 검증으로 표현하지 않음.
