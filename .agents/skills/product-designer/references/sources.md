@@ -115,3 +115,20 @@
 35. [JoaoMonteiro100 · UX Design Skills](https://github.com/JoaoMonteiro100/ux-design-skills)
     - 확인: README. blob `8759d3ec311a64d7237ba5afa2b58910905eb595`.
     - 반영: 경쟁 분석·페르소나·사용성·접근성의 목적별 구분과 근거 범위. 제작자가 보고한 평가를 우리 환경의 독립 검증으로 표현하지 않음.
+
+## 기존 제품 업그레이드 보강 · 2026-10-31
+
+원문 전문이나 실행 코드를 설치하지 않고 확인한 방법을 우리 제조·근거 기준에 맞춰 재작성했다.
+
+36. [danium · SCAMPER](https://github.com/danium/lateral-thinking/blob/main/skills/scamper/SKILL.md)
+    - 확인 버전 blob `242c0cd01dff90f4a50d859b0a257431540ca5c0`. 일곱 발상 렌즈를 상황에 맞게 선택. 고정 순서·모든 칸 채우기·거절 조건은 이식하지 않음.
+37. [v0lka · TRIZ Solver](https://github.com/v0lka/skills/blob/main/research/triz-solver/SKILL.md)
+    - 확인 버전 blob `648d56df761a44c8c6ac5940c3a350f57227e36f`. 충돌 특성·기존 자원·가벼운 해결 원리. 정식 분석이나 성능 검증으로 과장하지 않음.
+38. [CometWeb · Product Teardown](https://github.com/CometWeb-io/agent-skills/blob/main/skills/product-teardown/SKILL.md)
+    - 확인 버전 blob `dec748f74d647da20bac40554f20d8026a567142`. 근거에서 적용 조건·구현·검증으로 연결. 주로 디지털 제품 분석이며 실물 분해 증거로 쓰지 않음.
+39. [interskh · Visual Product Teardown](https://github.com/interskh/product-teardown-skill)
+    - 확인 버전 blob `dcd8630f2c760592ed63f3964ac79016f32d014b`. README 확인. 공식 설명과 실제 사용 관찰을 구분. 영상 수집 스크립트·Bash 의존·점수표는 가져오지 않음.
+40. [evnchn-agentic · Agentic 3D Modeling](https://github.com/evnchn-agentic/agentic-3d-modeling/blob/master/SKILL.md)
+    - 확인 버전 blob `24f5dac665daf9e999ea69b1d3554ad2e2aa5a26`. SKILL.md 일부 확인. 결합·이동 공간 검토와 변경 후 재검사에 반영. 프린터 자동 실행·일률적 공차·3D 프린팅 전제는 도입하지 않음.
+
+앱 디렉터리에서 tldraw·Canva·Figma·Product Design의 설명과 당시 표시된 설치 상태를 확인했다. 연결·실행 여부는 실제 작업 시 재확인한다. 앱은 선택 시각화 도구이며 필수 의존성이 아니다.
