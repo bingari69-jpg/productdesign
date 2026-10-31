@@ -48,3 +48,7 @@
 ## 별도 보조 평가
 
 기존 디자인 스킬과 분리된 [product-concept-review](.agents/skills/product-concept-review/SKILL.md)를 추가했습니다. 소비자 욕구·구매 이유·차별성·구매 장벽을 검토하고, 요청 시 수정 전후를 비교합니다. [사용법](docs/보조평가_사용법.md). 기존 product-designer 파일은 변경하지 않았으며 자동 실행 후크는 없습니다.
+
+## 회사 PC에서 스킬만 설치·업데이트
+
+[회사에서 스킬 받기](docs/회사에서_스킬받기.md)의 요청 문장을 사용하면 됩니다. 대상은 product-designer와 product-concept-review 두 폴더이며 콘팩·다른 설정·작업 이미지는 설치 대상이 아닙니다.
