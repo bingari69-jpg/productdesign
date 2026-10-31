@@ -1,0 +1,4 @@
+interface:
+  display_name: "제품 콘셉트 보조 평가"
+  short_description: "소비자 욕구와 구매 이유를 중심으로 디자인을 비평하고 수정안을 비교"
+  default_prompt: "$product-concept-review 이 제품 시안을 평가하고, 살릴 특징과 우선 수정할 부분을 정리해줘."
